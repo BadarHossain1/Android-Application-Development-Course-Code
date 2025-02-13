@@ -1,50 +1,3 @@
-// 1
-console.log("Badar Hossain");
-
-// 2
-
-console.log('Hello I am "John Doe"');
-console.log("Hello I'm \"John Doe\"");
-
-// 3
-const value = 7;
-
-// 4
-let p = 1000;
-let r = 10;
-let t = 5;
-
-console.log((p * t * r) / 100);
-
-//5 Write a program to print a square of a number using user input.
-// const readline = require('readline').createInterface({
-//     input: process.stdin,
-//     output: process.stdout
-
-// })
-
-// readline.question('Enter your number: ', number => {
-//     console.log(`The square of the number is ${number*number}`);
-//     readline.close();
-// })
-
-// 6 Write a program to print full name of a from first name and last name using user input.
-// const readline2 = require('readline').createInterface({
-//     input: process.stdin,
-//     output: process.stdout
-
-// })
-
-// readline2.question('Enter your first Name: ', first => {
-//     readline2.question('Enter your last Name: ', last => {
-//         console.log(`Hello ${first} ${last}`);
-//         readline.close();
-//     })
-//     readline2.close();
-// })
-
-// 7
-// Write a program to find quotient and remainder of two integers.
 
 // const readline3 = require('readline').createInterface({
 //     input: process.stdin,
@@ -100,16 +53,3 @@ console.log((p * t * r) / 100);
 
 
 // console.log('hi i am "jon doe"');
-
-const bike = {
-    brand: 'Honda',
-    model: 'CBR 150R',
-    color: 'Black'
-}
-
-bike.map((key, value) => {
-
-    console.log(key, value);
-
-    
-})  
